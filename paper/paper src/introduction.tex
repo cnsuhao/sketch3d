@@ -1,0 +1,29 @@
+\section{Introduction}
+
+% background: 3D sketching
+Drawing a 2D sketch is often considered more intuitive and much faster than directly creating a 3D model. To facilitate 3D browsing of sketched objects, various 3D sketching systems \cite{dorsey2007mental,bae2008ilovesketch,Zheng2016}, which aim to lift 2D input sketches to 3D, have been proposed for early concept design. Most of the existing 3D sketching systems focus on 3D interpretation of 2D sketches alone, leading to a rather ill-posed problem. Additional assumptions or user inputs are thus often needed to resolve interpretation ambiguities.
+
+We observe that designers often have to further develop ideas based on existing 3D models, which for example are intermediate models from an iterative design process. Designers may also start with an initial 3D model either retrieved from a shape repository (e.g., via a sketching interface \cite{Eitz:2012a}) or acquired by 3D-scanning a physical object for renovation \cite{Chen2015}. While the existing 3D sketching systems typically support the rendering of 3D sketches overlaid with a given 3D model, they either completely ignore or do not fully exploit the information of the 3D model for sketch interpretation. To the best of our knowledge, none of them is directly applicable to even simple examples shown in \ca{Figure~\ref{}}.
+
+
+
+%Creating 3D models or scene is a fundamental task for many applications including games, movies, or real product design. This process requires well-trained artists to work on professional software with many iterations. In each iteration, the artists create a intermediate model and get feedback from their clients. Then they revise the intermediate model to produce a new version. The iteration ends until the clients satisfy the results. During this production process, the communication between the artists and the clients is crucial since a good communication may significantly reduce the production time.
+
+%Communication through textural description is not sufficient since it may cause misunderstanding. A description with visual example is always preferable due to it is easy for understanding and with less mistakes during the communication. Since the intermediate results of the modeling is in 3D form, it would be better if the visual example is also 3D. However, most of the time the clients are not professionals of the modeling software, or even laymen of 3D modeling. In this case, it becomes challenging for the clients to create a 3D visual example to illustrate their requirement to the artists.
+
+%Sketch is a simple and efficient media for expressing the idea. Almost anybody is able to draw an understandable sketch without training. Many 3D modeling or rendering softwares have provided sketching tools, such as grease pencil in Blender, to draw sketch in 3D. However, these tools are not easy to use since it still requires the user to carefully determine the 3D position of the sketch. Therefor they are still not a good choice for novice user.
+
+In this work we will explore how a given 3D model can facilitate 3D interpretation of 2D sketches, and present a model-guided 3D sketching interface. We focus on sketching renovations of man-made objects or scenes, which often contain rich regular features, e.g., parallel lines, planar surfaces etc. A straightforward model-guided 3D sketching approach is to let users explicitly specify a planar surface of the model as a 3D canvas plane, on which 2D sketched strokes are projected to create 3D sketches. This approach often requires frequent changes of camera view due to the  visibility problem involved for plane selection. Worse, a 3D model typically has a small number of planar surfaces, significantly limiting the design space.
+
+To address these problems we propose to perform a co-analysis of multiple 2D strokes, which are expected to lie in a single 3D plane. With our incremental interface a user draws strokes \emph{plane by plane},
+but without explicit 3D plane specification. Once a group of 2D strokes constrained to a single plane is drawn, our inference engine automatically constructs a 3D plane by examining the attachment of those strokes to the 3D model and their correlation with the salient linear features of the model. With the constructed 3D plane, the 3D position of this group of 2D strokes can be easily determined.
+\hongbo{TODO: additional assumption on the input strokes}
+
+\todo{
+suggestive interface; fix; rough strokes; for novice users;
+annotation, renovation; 3D models, scenes;
+%
+It is easy and simple to use, so that it will be a suitable tool for novice user to express the idea of design.
+}
+% The surface is determined by our system automatically, based on the correlation between the strokes and the model. Since the drawn strokes may have multiple reasonable interpretations, there may exist several candidates of surfaces. We will provide a candidate list for the user to select.
+

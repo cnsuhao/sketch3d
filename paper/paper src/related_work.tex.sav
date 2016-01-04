@@ -1,0 +1,33 @@
+\section{Related Work}
+We are interested in inferring the depth of 2D strokes, which are typically sketched via graphic tablets. So the existing 3D sketching systems relying on special 3D input hardware (e.g., \ca{[REF]}) is beyond the scope of our review here. 3D interpretation of 2D strokes is essentially an ill-posed problem and requires additional information to fix them in 3D. For example, a stroke might be required to drawn from multiple viewpoints \ca{[REF]}. In a single view, a stroke together with its shadow \ca{[REF]} or its symmetric counterpart \ca{[REF]} might be needed for 3D reconstruction. While those approaches provide general ways to sketch 3D curves, they require accurate drawing, which is quite challenging (e.g., due to perceptual foreshortening biases).
+
+A more common approach is to first specify a 3D sketch surface, on which 2D stroked are then anchored.
+Various types of 3D sketch surface have been explored. Among them 2D plane embedded in  (e.g.,
+A 3D sketch surface is either pre-defined or needs to be explicitly specified before its use.
+
+%
+In contrast, we aim to automatically construct a 3D sketch plane by examining the relations between a group of 2D strokes lying on it and a guidance 3D model.
+
+Most of the existing 3D sketching systems focus on the creation of 3D sketches from scratch, and very few works 
+
+
+
+
+Another approach to fix 2D strokes in 3D is to first construct 3D 
+
+~\cite{schmidt2009analytic}; no sketch surface, 
+
+
+Possible solutions include epipolar sketching from multiple viewpoints \ca{[REF]}
+
+collect the information of a stroke epipolar sketching using two or more views
+
+image-guided 3D sketching 
+
+\textbf{Sketch-based modeling}
+
+\textbf{3D sketching}
+
+\cite{Olsen:2005}
+
+Pen-based Styling Design of 3D Geometry Using Concept Sketches and Template Models

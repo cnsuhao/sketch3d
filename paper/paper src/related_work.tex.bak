@@ -1,0 +1,36 @@
+\section{Related Work}
+We are interested in inferring the depth of 2D strokes, which are typically sketched via graphic tablets. So the existing 3D sketching systems relying on special 3D input hardware (e.g., \cite{Sachs1991,Tsang2002}) is beyond the scope of our review here. 3D interpretation of 2D strokes is essentially an ill-posed problem and requires additional information to fix them in 3D. For example, a stroke might be required to drawn from multiple viewpoints \cite{Karpenko2004,bae2008ilovesketch,Rivers:2010}. % Kara:2007
+In a single view, a stroke together with its shadow on a horizontal plane \cite{Cohen1999} or its symmetric counterpart \cite{bae2008ilovesketch} might be needed for 3D interpretation of this stroke. While these multi-curve approaches provide general ways to sketch 3D curves, they require accurate drawing, which is quite challenging (e.g., due to perceptual foreshortening biases).
+%
+% Our technique also take as input multiple strokes ...
+
+A more common approach is to first specify a 3D sketch surface or canvas, on which 2D strokes can then be anchored one by one.
+Various types of 3D sketch surface (e.g., planes, extruded surfaces~\cite{Tsang:2004,bae2008ilovesketch}, freeform surfaces~\cite{Kara2006,nealen2007fibermesh}, inflation surfaces~\cite{Grimm:2012}), have been explored for interactive 3D sketching. Among them 2D planes embedded in 3D (e.g., camera plane~\cite{bourguignon2001drawing}, parallel planes~\cite{dorsey2007mental}, co-axial planes~\cite{dorsey2007mental}, orthographic planes~\cite{Grossman2002,Tsang:2004,bae2008ilovesketch,Zheng2016}) are the most popular.
+%
+Such planes are often pre-configured and need to be explicitly activated (only one each time) before their use.
+The planes might be translated and rotated in 3D for example using the traditional 3D object transformation tools.
+%
+Our work follows this line of research. However, we aim to automatically construct a 3D sketch plane by analyzing a group of 2D strokes lying on it and examining their relations to a 3D guidance model. We believe that our technique can reduce the efforts for mode switching, plane selection and manipulation, thus providing a smoother sketching experience.
+
+The main problem of using a specific type of sketch surface is that the space of possible 3D curves is limited to those lying on such sketch surfaces. To address this problem, Schmidt et al.~\shortcite{schmidt2009analytic} proposed to first incrementally construct a linear 3D scaffold and then infer more freeform 3D curves from the scaffold. Our input 3D model for guidance is similar to their 3D scaffold in a sense that both of them provide geometric constraints (e.g., snapping{~\cite{bier1990snap}})
+to filter the space of admissible 3D curves. Since the approach of Schmidt et al. incrementally fixes strokes in 3D \emph{one by one}, without using or forming any sketch canvas, it does not support casual sketching of 3D curves (\ca{Figure~\ref{}}), which cannot induce geometric constraints from the scaffold.
+
+Face planarity is one of the fundamental geometric constraints used in automated interpretation of \emph{a complete sketch} (e.g.,~\cite{Lipson:1996,Chen:2008f,Zou2015}). Many existing works aim for the reconstruction of 3D polyhedra (with planar faces). Recently, Xu et al. \shortcite{xu2014true2form} present a mathematical framework to infer piecewise-smooth curve networks from 2D drawings. Such curve networks can be finally surfaced to create 3D surface models~\cite{Pan:2015}. Since 2D sketched strokes need to be ultimately mapped to 3D models to be reconstructed, these works all require relatively clean input drawings. Instead, our technique accepts more rough strokes as input and aim for rapid concept redesign of a given model.
+%, similar to ~\cite{bourguignon2001drawing,dorsey2007mental,Zheng2016}.
+
+3D sketching has been studied in context of single or multiple images. The existing approaches mainly use images as reference for 2D sketching, and employ the existing sketch interpretation techniques or their variations to fix 2D strokes in 3D (e.g., sketch planes adopted in~\cite{Tsang:2004,Paczkowski:2011}, modified Lipson optimization in~\cite{Lau:2010}). Very recently, Zheng et al.~\shortcite{Zheng2016} 
+proposed to first derive a 3D cuboid from a reference image (to align with respective vanishing directions) and then sweep out candidate canvas planes from the three orthogonal faces of the cuboid. Similar to ours, their technique then formulates sketch interpretation as a selection problem from a set of context-inducted canvas planes. While their system is rather powerful, it might take several hours for first-time users to get familiar with their system, possibly due to 
+
+
+
+
+Most of the above 3D sketching systems focus on the creation of 3D sketches from scratch, and only very few works explicitly discuss their use in context of existing 3D models.
+
+Due to the simplicity and intuitiveness, many sketch-based interfaces have been proposed for 3D modeling and editing (see an insightful survey in~\cite{olsen2009sketch}). A large category of existing techniques for sketch-based modeling from scratch are \emph{reconstruction-based} (e.g.,~\cite{Zeleznik:1996,Igarashi:1999,Karpenko:2006,nealen2007fibermesh}). They require accurate drawing, since the input strokes are somehow mapped directly to the output model. Sketching has been demonstrated powerful for editing existing shapes (e.g.,~\cite{singh1998wires,nealen:2005:sketch,Olsen:2005,Kara2006a}).
+These approaches often use the existing models as sketch surfaces and aim for the generation of shape variations. Our goal is more similar to the retrieval-based approaches (e.g.,~\cite{Shin:2007,Lee:2008b,Xu:2013,Fan2013}), which intend to add new parts (models) into an existing model (scene) by retrieving the most similar parts (models) from a shape repository with respect to an input sketch as query. These approaches, however, are less interested in inferring 3D positions of the strokes, and after retrieval discard them, though sketches are often more expressive.
+%
+
+
+
+
+
