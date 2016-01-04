@@ -1,0 +1,60 @@
+%\section{System Overview}
+%
+%%With the \ca{SKETCH} system, the user only needs to draw sketch over 3D model in a conventional 2D drawing manner: she does not needs to provide additional operation to specify the 3D information of the drawn sketch. Our system automatically bring the input 2D sketch to 3D based on the relation between the drawn strokes and the existing 3D features. 
+%
+%\ca{1. brief introduction of the interface.}  The \ca{SKETCH} system adopts an incremental interface to construct a complete 3D sketch. The user draws the strokes plane by plane, i.e., 
+%
+%\ca{}
+
+\section{User Interface}
+
+%In this section we describe the interface of our sketching system.
+Our prototype is composed of two windows: input window and preview window. The sketching process is performed in the input window. The constructed 3D sketch is displayed in the preview window in a different view angle such that the user can easily perceive the results. The operations in the preview window can also help to resolve the ambiguity introduced by the user's input.
+%Each time the user draws strokes in the input window, the constructed 3D sketch is shown in the preview window in a carefully-chosen view angle to better express the 3D information of the resulting sketch. 
+In the following, we will describe the interface for sketching and ambiguity resolution in detail.
+
+\subsection{Sketching}
+
+%\ca{emphasis: our system follows the conventional sketching manner.}
+
+To use our system, the user first loads a model which will be sketched over. This model is displayed in the input window with orthogonal projection, thus the 3D parallel relation is retained in the screen space. The view angle can be manipulated in \ca{the positioning mode} with rotation, translation, and zooming. When a desired view angle is obtained, the user can  enter \ca{the sketching mode} to draw sketch over the model. The drawing is performed in a way similar to conventional drawing on paper. To convert the input strokes into 3D, we adopt an incremental strategy. During the drawing, each time the user draws a group of strokes which are constrained to be on a same plane canvas. This plane canvas is automatically obtained based the relation between the drawn strokes and the model. Each time when the user draws a new stroke, this plane canvas will be updated. When the user finishes a group of strokes, she trigger a command to end this step, and the drawn strokes will be converted into 3D by projecting them on the plane canvas. Then she can continue to add another group of strokes or manipulate the view angle. The user can also enter \ca{the erasing mode} to modify the previous added 3D strokes.
+
+%\ca{floating buttons.}
+During the sketching projcess, besides drawing strokes, the user also needs to issues commands, e.g., entering different modes. A simple solution is to include buttons on the task bar, such that the user could click these buttons to issue the desired command. To make the sketching process smoother, we adopt floating buttons to minimize the stylus or finger movement when the user wants to issue a command. During the drawing of a stroke, the buttons are invisible. When the stroke is finished, the floating buttons are shown next to the drawn strokes transparently. If the user continues to draw, the buttons fades away and will not introduce occlusion problem.
+
+%\ca{visualization: occlusion}
+
+
+%\ca{visualization: canvas?}
+
+%\ca{Two different sketches: structural sketch, detail sketch}
+
+
+\subsection{Ambiguity Resolution} 
+
+%\ca{Why preview window: show candidates}
+When the user draws strokes in the input window, our system automatically finds the plane canvas and convert the drawn strokes into 3D. However, the 3D information of the sketch can not be perceived in the input window without changing the view angle. Therefore, we display the resulting 3D sketches in the preview window in a different view angle. In addition, since the user's input may have ambiguities, the potential plane canvas may not be unique. In this case, we display the candidate plane canvases and the associated 3D sketches to the user for selection, if the default one is not desired.
+
+To select the desired 3D sketch and associated canvas, the user simply use the stylus or finger to stroke across the desired candidate.  The user can also change the view angle to facilitate the selection process, if necessary. The selection mode and viewing mode can be switched by touching the floating buttons, which are displayed at the bottom of the preview window.
+
+ 
+
+
+
+%\ca{automatic view angle estimation}
+%The view angle in the preview window is determined by the candidate 3D sketches. We choose a view angle such that the candidates 
+
+%\ca{manipulating view angle if necessary}
+
+
+%\ca{canvas visualization??}
+
+%\ca{selecting desired canvas}
+%We have two
+
+%\ca{mode switching by buttons in the bottom: window is small, no need to float}
+
+%The user draws strokes in the input window, and the constructed candidate 3D sketches are shown in the preview window 
+% with a different view angle in which the difference of all candidate 3D sketches is 
+
+

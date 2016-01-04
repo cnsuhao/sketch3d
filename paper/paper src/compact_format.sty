@@ -1,0 +1,43 @@
+% -------------------------------------------------------------------
+% tighter version of itemize
+\makeatletter
+%\renewcommand\section{
+%    \@startsection {section}{1}{\z@}%
+%    {0.03cm}% Over
+%    {0.01cm}% Under
+%    {\normalfont\Large\sffamily\bfseries}
+%}
+\renewcommand\subsection{
+    \@startsection {subsection}{1}{\z@}%
+    {0.02cm}% Over
+    {0.005cm}% Under
+    {\normalfont\large\sffamily\bfseries}}
+\renewcommand\paragraph{
+    \@startsection {paragraph}{4}{\z@}%
+    {\parskip}%
+    {-.5em plus -.1em}%
+    {\normalfont\normalsize\sffamily\bfseries}}
+\makeatother
+
+\renewenvironment{itemize}{ % tighter version of itemize
+%\begin{list}{$\bullet$}{
+\begin{list}{$\diamond \!\!$}{
+%\begin{list}{$\blacklozenge$}{
+\setlength{\itemsep}{-0.01ex} \setlength{\parsep}{0.ex}
+\setlength{\partopsep}{-0.ex} \setlength{\topsep}{+0.05ex}
+\setlength{\leftmargin}{1.5ex} } }  {
+\end{list} }
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+%\usepackage[small]{caption}           % enable small captions
+%\let\oldcaption\caption
+%\renewcommand{\caption}         {\it \oldcaption}
+% Tweak the spacing a little
+\renewcommand{\abovecaptionskip}{6pt}     % Standard is 10pt
+\renewcommand{\belowcaptionskip}{-5mm}
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------

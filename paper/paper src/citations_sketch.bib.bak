@@ -1,0 +1,861 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: GBK
+
+@INPROCEEDINGS{alvarado2004sketch,
+  author = {Alvarado, Christine},
+  title = {Sketch recognition user interfaces: Guidelines for design and development},
+  booktitle = {Proceedings of AAAI Fall Symposium on Intelligent Pen-based Interfaces},
+  year = {2004},
+  volume = {1},
+  number = {2}
+}
+
+@INPROCEEDINGS{andre2011single,
+  author = {Andre, Alexis and Saito, Suguru},
+  title = {Single-view sketch based modeling},
+  booktitle = {Proceedings of the Eighth Eurographics Symposium on Sketch-Based
+	Interfaces and Modeling},
+  year = {2011},
+  pages = {133--140},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{arvo2000fluid,
+  author = {Arvo, James and Novins, Kevin},
+  title = {Fluid sketches: continuous recognition and morphing of simple hand-drawn
+	shapes},
+  booktitle = {Proceedings of the 13th annual ACM symposium on User interface software
+	and technology},
+  year = {2000},
+  pages = {73--80},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{bae2008ilovesketch,
+  author = {Bae, Seok-Hyung and Balakrishnan, Ravin and Singh, Karan},
+  title = {ILoveSketch: as-natural-as-possible sketching system for creating
+	3d curve models},
+  booktitle = {Proceedings of the 21st annual ACM symposium on User interface software
+	and technology},
+  year = {2008},
+  pages = {151--160},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{bier1990snap,
+  author = {Bier, Eric A},
+  title = {Snap-dragging in three dimensions},
+  booktitle = {ACM SIGGRAPH Computer Graphics},
+  year = {1990},
+  volume = {24},
+  number = {2},
+  pages = {193--204},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{bolz1993some,
+  author = {Bolz, Dieter},
+  title = {Some aspects of the user interface of a knowledge based beautifier
+	for drawings},
+  booktitle = {Proceedings of the 1st international conference on Intelligent user
+	interfaces},
+  year = {1993},
+  pages = {45--52},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{bourguignon2001drawing,
+  author = {Bourguignon, David and Cani, Marie-Paule and Drettakis, George},
+  title = {Drawing for illustration and annotation in 3D},
+  booktitle = {Computer Graphics Forum},
+  year = {2001},
+  volume = {20},
+  number = {3},
+  pages = {114--123},
+  organization = {Wiley Online Library}
+}
+
+@INPROCEEDINGS{Chen2015,
+  author = {Chen, Xiang 'Anthony' and Coros, Stelian and Mankoff, Jennifer and
+	Hudson, Scott E.},
+  title = {Encore: 3D Printed Augmentation of Everyday Objects with Printed-Over,
+	Affixed and Interlocked Attachments},
+  booktitle = {Proceedings of the 28th Annual ACM Symposium on User Interface Software
+	\&\#38; Technology},
+  year = {2015},
+  series = {UIST '15},
+  pages = {73--82},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {2807498},
+  doi = {10.1145/2807442.2807498},
+  isbn = {978-1-4503-3779-3},
+  keywords = {3d printing, analysis, attachments, fabrication},
+  location = {Daegu, Kyungpook, Republic of Korea},
+  numpages = {10},
+  url = {http://doi.acm.org/10.1145/2807442.2807498}
+}
+
+@ARTICLE{Chen:2008f,
+  author = {Chen, X. and Kang, S.B. and Xu, Y.Q. and Dorsey, J. and Shum, H.Y.},
+  title = {Sketching reality: Realistic interpretation of architectural designs},
+  journal = {ACM Transactions on Graphics (TOG)},
+  year = {2008},
+  volume = {27},
+  pages = {11},
+  number = {2},
+  file = {:sketch_understanding\\2008-TOG Sketching Reality.pdf:PDF},
+  owner = {Hongbo},
+  publisher = {ACM},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{Cohen1999,
+  author = {Cohen, Jonathan M and Markosian, Lee and Zeleznik, Robert C and Hughes,
+	John F and Barzel, Ronen},
+  title = {An interface for sketching 3D curves},
+  booktitle = {Proceedings of the 1999 symposium on Interactive 3D graphics},
+  year = {1999},
+  pages = {17--21},
+  organization = {ACM}
+}
+
+@ARTICLE{DePaoli:2015,
+  author = {De Paoli, Chris and Singh, Karan},
+  title = {SecondSkin: Sketch-based Construction of Layered 3D Models},
+  journal = {ACM Trans. Graph.},
+  year = {2015},
+  volume = {34},
+  pages = {126:1--126:10},
+  number = {4},
+  month = jul,
+  acmid = {2766948},
+  address = {New York, NY, USA},
+  articleno = {126},
+  doi = {10.1145/2766948},
+  file = {:sketching\\2015-SIGGRAPH SecondSkin.pdf:PDF},
+  issn = {0730-0301},
+  issue_date = {August 2015},
+  keywords = {layers, shells, sketch-based modeling},
+  numpages = {10},
+  owner = {Hongbo},
+  publisher = {ACM},
+  timestamp = {2016.01.03},
+  url = {http://doi.acm.org/10.1145/2766948}
+}
+
+@INPROCEEDINGS{dorsey2007mental,
+  author = {Dorsey, Julie and Xu, Songhua and Smedresman, Gabe and Rushmeier,
+	Holly and McMillan, Leonard},
+  title = {The mental canvas: A tool for conceptual architectural design and
+	analysis},
+  booktitle = {Computer Graphics and Applications, 2007. PG'07. 15th Pacific Conference
+	on},
+  year = {2007},
+  pages = {201--210},
+  organization = {IEEE}
+}
+
+@ARTICLE{Eitz:2012a,
+  author = {Eitz, Mathias and Richter, Ronald and Boubekeur, Tamy and Hildebrand,
+	Kristian and Alexa, Marc},
+  title = {Sketch-Based Shape Retrieval},
+  journal = {ACM Trans. Graph. (Proc. SIGGRAPH)},
+  year = {2012},
+  volume = {31},
+  pages = {31:1--31:10},
+  number = {4},
+  file = {:shape_retrieval\\2012-SIGGRAPH Sketch-Based Shape Retrieval.pdf:PDF},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{Fan2013,
+  author = {Fan, Lubin and Wang, Ruimin and Xu, Linlin and Deng, Jiansong and
+	Liu, Ligang},
+  title = {Modeling by drawing with shadow guidance},
+  booktitle = {Computer Graphics Forum},
+  year = {2013},
+  volume = {32},
+  number = {7},
+  pages = {157--166},
+  organization = {Wiley Online Library}
+}
+
+@INPROCEEDINGS{fan2004sketch,
+  author = {Fan, Zhe and Oliveira, Manuel M and Ma, Chi and Kaufman, Arie},
+  title = {A sketch-based interface for collaborative design},
+  booktitle = {Proceedings of the First Eurographics conference on Sketch-Based
+	Interfaces and Modeling},
+  year = {2004},
+  pages = {143--150},
+  organization = {Citeseer}
+}
+
+@INPROCEEDINGS{gal2009iwires,
+  author = {Gal, Ran and Sorkine, Olga and Mitra, Niloy J and Cohen-Or, Daniel},
+  title = {iWIRES: an analyze-and-edit approach to shape manipulation},
+  booktitle = {ACM Transactions on Graphics (TOG)},
+  year = {2009},
+  volume = {28},
+  number = {3},
+  pages = {33},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Grimm:2012,
+  author = {Grimm, Cindy and Joshi, Pushkar},
+  title = {Just DrawIt: a 3D sketching system},
+  booktitle = {Proceedings of the International Symposium on Sketch-Based Interfaces
+	and Modeling},
+  year = {2012},
+  series = {SBIM '12},
+  pages = {121--130},
+  address = {Aire-la-Ville, Switzerland, Switzerland},
+  publisher = {Eurographics Association},
+  acmid = {2331084},
+  file = {:sketching\\2012-SBIM Just DrawIt.pdf:PDF},
+  isbn = {978-3-905674-42-2},
+  location = {Annecy, France},
+  numpages = {10},
+  owner = {Hongbo},
+  timestamp = {2016.01.03},
+  url = {http://dl.acm.org/citation.cfm?id=2331067.2331084}
+}
+
+@INPROCEEDINGS{Grossman2002,
+  author = {Grossman, Tovi and Balakrishnan, Ravin and Kurtenbach, Gordon and
+	Fitzmaurice, George and Khan, Azam and Buxton, Bill},
+  title = {Creating principal 3D curves with digital tape drawing},
+  booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing
+	Systems},
+  year = {2002},
+  pages = {121--128},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{igarashi1997interactive,
+  author = {Igarashi, Takeo and Matsuoka, Satoshi and Kawachiya, Sachiko and
+	Tanaka, Hidehiko},
+  title = {Interactive beautification: a technique for rapid geometric design},
+  booktitle = {Proceedings of the 10th annual ACM symposium on User interface software
+	and technology},
+  year = {1997},
+  pages = {105--114},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Igarashi:1999,
+  author = {Takeo Igarashi and Satoshi Matsuoka and Hidehiko Tanaka},
+  title = {Teddy: a sketching interface for 3{D} freeform design},
+  booktitle = {SIGGRAPH '99},
+  year = {1999},
+  pages = {409--416},
+  abstract = {We present a sketching interface for quickly and easily designing
+	freeform models such as stuffed animals and other rotund objects.
+	The user draws several 2D freeform strokes interactively on the screen
+	and the system automatically constructs plausible 3D polygonal surfaces.
+	Our system supports several modeling operations, including the operation
+	to construct a 3D polygonal surface from a 2D silhouette drawn by
+	the user: it inflates the region surrounded by the silhouette making
+	wide areas fat, and narrow areas thin. Teddy, our prototype system,
+	is implemented as a Java? program, and the mesh construction is done
+	in real-time on a standard PC. Our informal user study showed that
+	a first-time user typically masters the operations within 10 minutes,
+	and can construct interesting 3D models within minutes.},
+  doi = {http://doi.acm.org/10.1145/311535.311602},
+  file = {1999-SIGGRAPH Teddy.pdf:sketching\\1999-SIGGRAPH Teddy.pdf:PDF},
+  isbn = {0-201-48560-5},
+  keywords = {sketching, user interface},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{Kara2006a,
+  author = {Kara, Levent Burak and D'Eramo, Chris M and Shimada, Kenji},
+  title = {Pen-based styling design of 3D geometry using concept sketches and
+	template models},
+  booktitle = {Proceedings of the 2006 ACM symposium on Solid and physical modeling},
+  year = {2006},
+  pages = {149--160},
+  organization = {ACM}
+}
+
+@ARTICLE{Kara:2007,
+  author = {Levent Burak Kara and Kenji Shimada},
+  title = {Sketch-Based 3D-Shape Creation for Industrial Styling Design},
+  journal = {IEEE Comput. Graph. Appl.},
+  year = {2007},
+  volume = {27},
+  pages = {60--71},
+  number = {1},
+  abstract = {The authors describe a pen-based modeling system for the styling design
+	of 3D objects. Their system is tailored toward the rapid and intuitive
+	design of styling features such as freeform curves and surfaces.
+	Basic wireframe and surfaces are constructed and modified using the
+	strategy of curve creation, curve modification, surface creation,
+	and finally surface modification.},
+  address = {Los Alamitos, CA, USA},
+  doi = {http://dx.doi.org/10.1109/MCG.2007.18},
+  file = {2007-CG&A Sketch-Based 3D-Shape Creation for Industrial Styling Design.pdf:sketching\\2007-CG&A Sketch-Based 3D-Shape Creation for Industrial Styling Design.pdf:PDF},
+  issn = {0272-1716},
+  keywords = {sketching},
+  owner = {Hongbo},
+  publisher = {IEEE Computer Society Press},
+  timestamp = {2016.01.02}
+}
+
+@INPROCEEDINGS{Kara2006,
+  author = {Kara, Levent Burak and Shimada, Kenji},
+  title = {Construction and modification of 3D geometry using a sketch-based
+	interface},
+  booktitle = {Eurographics workshop on sketch-based interfaces and modeling},
+  year = {2006},
+  pages = {59--66}
+}
+
+@ARTICLE{Karpenko:2006,
+  author = {Olga A. Karpenko and John F. Hughes},
+  title = {SmoothSketch: 3D free-form shapes from complex sketches},
+  journal = {ACM Trans. Graph.},
+  year = {2006},
+  volume = {25},
+  pages = {589--598},
+  number = {3},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/1141911.1141928},
+  file = {2006-SIGGRAPH SmoothSketch.pdf:sketching\\2006-SIGGRAPH SmoothSketch.pdf:PDF},
+  issn = {0730-0301},
+  keywords = {sketching, user interface},
+  owner = {Hongbo},
+  publisher = {ACM Press},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{Karpenko2004,
+  author = {Karpenko, Olga and Hughes, John F and Raskar, Ramesh},
+  title = {Epipolar methods for multi-view sketching},
+  booktitle = {Proceedings of the First Eurographics conference on Sketch-Based
+	Interfaces and Modeling},
+  year = {2004},
+  pages = {167--173},
+  organization = {Citeseer}
+}
+
+@ARTICLE{Karpenko:2002,
+  author = {O. Karpenko and J. F. Hughes and R. Raskar},
+  title = {Free-form sketching with variational implicit surfaces},
+  journal = {Computer Graphics Forum},
+  year = {2002},
+  volume = {21},
+  pages = {585--594},
+  number = {3},
+  abstract = {With the advent of sketch-based methods for shape construction, there's
+	a new degree of power available in the rapid creation of approximate
+	shapes. Sketch [Zeleznik, 1996] showed how a gesture-based modeler
+	could be used to simplify conventional CSG-like shape creation. Teddy
+	[Igarashi, 1999] extended this to more free-form models, getting
+	much of its power from its ``inflation'' operation (which converted
+	a simple closed curve in the plane into a 3D shape whose silhouette,
+	from the current point of view, was that curve on the view plane)
+	and from an elegant collection of gestures for attaching additional
+	parts to a shape, cutting a shape, and deforming it.
+	
+	But despite the powerful collection of tools in Teddy, the underlying
+	polygonal representation of shapes intrudes on the results in many
+	places. In this paper, we discuss our preliminary efforts at using
+	variational implicit surfaces [Turk, 2000] as a representation in
+	a free-form modeler. We also discuss the implementation of several
+	operations within this context, and a collection of user-interaction
+	elements that work well together to make modeling interesting hierarchies
+	simple. These include ``stroke inflation'' via implicit functions,
+	blob-merging, automatic hierarchy construction, and local surface
+	modification via silhouette oversketching. We demonstrate our results
+	by creating several models.},
+  file = {:sketching\\2002-EG Free-form sketching with variational implicit surfaces.pdf:PDF},
+  keywords = {sketching, implicit surfaces, variational},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{kraevoy2008non,
+  author = {Kraevoy, Vladislav and Sheffer, Alla and Shamir, Ariel and Cohen-Or,
+	Daniel},
+  title = {Non-homogeneous resizing of complex models},
+  booktitle = {ACM Transactions on Graphics (TOG)},
+  year = {2008},
+  volume = {27},
+  number = {5},
+  pages = {111},
+  organization = {ACM}
+}
+
+@CONFERENCE{Lau:2010,
+  author = {Manfred Lau and Greg Saul and Jun Mitani and Takeo Igarashi},
+  title = {Modeling-in-Context: User Design of Complementary Objects with a
+	Single Photo},
+  booktitle = {SBIM 2010},
+  year = {2010},
+  abstract = {The products that we use everyday are typically designed and produced
+	for mass consumption. However, it is difficult for such products
+	to satisfy the needs of individual users. We present a framework
+	that allows the end-user to participate in the entire process of
+	designing their own objects, from the initial concept stage to the
+	production of a new real-world object that fits well with the existing
+	complementary objects. We advocate using a single photo as a rough
+	guide for the user to sketch a new customized object that does not
+	exist in the photo. Our system provides a 2D interface for sketching
+	the outline of the new object and annotating certain geometric properties
+	of it directly on the photo. We introduce a Modified Lipson optimization
+	method for generating the 3D shape. We design a variety of real-world
+	everyday objects that are complementary to the existing objects and
+	environment in the photo. We show that novice users can learn and
+	create new objects with our system within minutes.},
+  file = {:image_based_modeling\\2010-SBIM Modeling-in-Context.pdf:PDF},
+  owner = {hongbofu},
+  timestamp = {2010.06.21}
+}
+
+@INPROCEEDINGS{Lee:2008b,
+  author = {Jeehyung Lee and Thomas Funkhouser},
+  title = {Sketch-Based Search and Composition of {3D} Models},
+  booktitle = {EUROGRAPHICS Workshop on Sketch-Based Interfaces and Modeling},
+  year = {2008},
+  month = jun,
+  abstract = {There is growing interest in developing tools with which novice users
+	can create detailed 3D models of their own designs. The most popular
+	approaches to this problem include sketch-based interfaces and part-composition
+	systems. The sketch-based modeling systems provide natural interfaces
+	for creating 3D models from 2D sketches, but are generally limited
+	to creating simple geometric models. The part-composition systems
+	provide tools for combining parts extracted from a database of 3D
+	models, and thus can generate very detailed 3D models, but usually
+	with much higher overhead and expertise required by the user for
+	manipulating 3D geometry interactively. In this paper, we introduce
+	a new modeling method that overcomes these limitations by combining
+	both approaches ? we introduce a modeling system for parts composition
+	with a sketching interface. The system allows the user to find a
+	part in a database and composite it into a model with a single sketch.
+	This approach combines the benefits of both approaches ? i.e., it
+	allows creation of highly detailed models/scenes (as details come
+	from parts in the database), while 2D sketched strokes provide all
+	the information for part selection and composition (no 3D manipulation
+	is required, in general). To enable this modeling method, we investigate
+	an algorithm for 3D shape search with 2D sketch as a shape query
+	and a part placement algorithm which automatically orients, translates,
+	scales, and attaches a new part into a modeling scene by taking the
+	user sketch as a hint. User experiences with our prototype system
+	show that novice users can create interesting and detailed models
+	with our system.},
+  file = {:shape_retrieval\\2008-SBIM Sketch-Based Search and Composition of 3D Models.pdf:PDF},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{lipman:2004:dc,
+  author = {Yaron Lipman and Olga Sorkine and Daniel Cohen-Or and David Levin
+	and Christian R\"{o}ssl and Hans-Peter Seidel},
+  title = {Differential coordinates for interactive mesh editing},
+  booktitle = {Proceedings of Shape Modeling International},
+  year = {2004},
+  pages = {181--190},
+  publisher = {IEEE Computer Society Press},
+  abstract = {One of the main challenges in editing a mesh is to retain the visual
+	appearance of the surface after applying various modifications. In
+	this paper we advocate the use of linear differential coordinates
+	as means to preserve the high-frequency detail of the surface. The
+	differential coordinates represent the details and are defined by
+	a linear transformation of the mesh vertices. This allows the reconstruction
+	of the edited surface by solving a linear system that satisfies the
+	reconstruction of the local details in least squares sense. Since
+	the differential coordinates are defined in a global coordinate system
+	they are not rotation-invariant. To compensate for that, we rotate
+	them to agree with the rotation of an approximated local frame. We
+	show that the linear least squares system can be solved fast enough
+	to guarantee interactive response time thanks to a precomputed factorization
+	of the coefficient matrix. We demonstrate that our approach enables
+	to edit complex detailed meshes while keeping the shape of the details
+	in their natural orientation.},
+  file = {2004-SMI Differential Coordinates for Interactive Mesh Editing.pdf:mesh_deformation\\2004-SMI Differential Coordinates for Interactive Mesh Editing.pdf:PDF},
+  keywords = {mesh deformation, Laplacian coordinates},
+  location = {Genova, Italy},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@ARTICLE{lipp2014pushpull,
+  author = {Lipp, Markus and Wonka, Peter and M{\"u}ller, Pascal},
+  title = {PushPull++},
+  journal = {ACM Transactions on Graphics (TOG)},
+  year = {2014},
+  volume = {33},
+  pages = {130},
+  number = {4},
+  publisher = {ACM}
+}
+
+@ARTICLE{Lipson:1996,
+  author = {Lipson, Hod and Shpitalni, Moshe},
+  title = {Optimization-based reconstruction of a 3D object from a single freehand
+	line drawing},
+  journal = {Computer-Aided Design},
+  year = {1996},
+  volume = {28},
+  pages = {651--663},
+  number = {8},
+  abstract = {This paper describes an optimization-based algorithm for reconstructing
+	a 3D model from a single, inaccurate, 2D edge-vertex graph. The graph,
+	which serves as input for the reconstruction process, is obtained
+	from an inaccurate freehand sketch of a 3D wireframe object. Compared
+	with traditional reconstruction methods based on line labelling,
+	the proposed approach is more tolerant of faults in handling both
+	inaccurate vertex positioning and sketches with missing entities.
+	Furthermore, the proposed reconstruction method supports a wide scope
+	of general (manifold and non-manifold) objects containing flat and
+	cylindrical faces. Sketches of wireframe models usually include enough
+	information to reconstruct the complete body. The optimization algorithm
+	is discussed, and examples from a working implementation are given.},
+  file = {:sketch_understanding\\1996-CAD Optimization-based reconstruction of a 3D object from a single freehand line drawing.pdf:PDF},
+  owner = {Hongbo},
+  publisher = {Elsevier},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{murugappan2009towards,
+  author = {Murugappan, Sundar and Sellamani, Subramani and Ramani, Karthik},
+  title = {Towards beautification of freehand sketches using suggestions},
+  booktitle = {Proceedings of the 6th Eurographics Symposium on Sketch-Based Interfaces
+	and Modeling},
+  year = {2009},
+  pages = {69--76},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{nealen2007fibermesh,
+  author = {Nealen, Andrew and Igarashi, Takeo and Sorkine, Olga and Alexa, Marc},
+  title = {FiberMesh: designing freeform surfaces with 3D curves},
+  booktitle = {ACM Transactions on Graphics (TOG)},
+  year = {2007},
+  volume = {26},
+  number = {3},
+  pages = {41},
+  organization = {ACM}
+}
+
+@ARTICLE{nealen:2005:sketch,
+  author = {Andrew Nealen and Olga Sorkine and Marc Alexa and Daniel Cohen-Or},
+  title = {A sketch-based interface for detail-preserving mesh editing},
+  journal = {ACM Trans. Graph.},
+  year = {2005},
+  volume = {24},
+  pages = {1142--1147},
+  number = {3},
+  file = {2005-SIGGRAPH A Sketch-Based Interface for Detail-Preserving Mesh Editing.pdf:mesh_deformation\\2005-SIGGRAPH A Sketch-Based Interface for Detail-Preserving Mesh Editing.pdf:PDF},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@ARTICLE{olsen2009sketch,
+  author = {Olsen, Luke and Samavati, Faramarz F and Sousa, Mario Costa and Jorge,
+	Joaquim A},
+  title = {Sketch-based modeling: A survey},
+  journal = {Computers \& Graphics},
+  year = {2009},
+  volume = {33},
+  pages = {85--103},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{Olsen:2005,
+  author = {L. Olsen and F. F. Samavati and M. C. Sousa and J. A. Jorge},
+  title = {Sketch-based mesh augmentation},
+  booktitle = {Eurographics Workshop on Sketch-Based Interfaces and Modeling},
+  year = {2005},
+  file = {:sketching\\2005-SBIM Sketch-Based Mesh Augmentation.pdf:PDF},
+  keywords = {sketching, geometric modeling, mesh editing, adaptive subdivision},
+  owner = {Hongbo},
+  timestamp = {2007.10.01}
+}
+
+@ARTICLE{Paczkowski:2011,
+  author = {Paczkowski, Patrick and Kim, Min H. and Morvan, Yann and Dorsey,
+	Julie and Rushmeier, Holly and O'Sullivan, Carol},
+  title = {Insitu: Sketching Architectural Designs in Context},
+  journal = {ACM Trans. Graph.},
+  year = {2011},
+  volume = {30},
+  pages = {182:1--182:10},
+  number = {6},
+  month = dec,
+  acmid = {2024216},
+  address = {New York, NY, USA},
+  articleno = {182},
+  doi = {10.1145/2070781.2024216},
+  file = {:sketching\\2011-SA Insitu.pdf:PDF},
+  issn = {0730-0301},
+  issue_date = {December 2011},
+  keywords = {context, design, human factors, sketching},
+  numpages = {10},
+  owner = {Hongbo},
+  publisher = {ACM},
+  timestamp = {2016.01.03},
+  url = {http://doi.acm.org/10.1145/2070781.2024216}
+}
+
+@ARTICLE{Pan:2015,
+  author = {Pan, Hao and Liu, Yang and Sheffer, Alla and Vining, Nicholas and
+	Li, Chang-Jian and Wang, Wenping},
+  title = {Flow Aligned Surfacing of Curve Networks},
+  journal = {ACM Trans. Graph.},
+  year = {2015},
+  volume = {34},
+  pages = {127:1--127:10},
+  number = {4},
+  month = jul,
+  acmid = {2766990},
+  address = {New York, NY, USA},
+  articleno = {127},
+  doi = {10.1145/2766990},
+  file = {:sketching\\2015-SIGGRAPH Flow Aligned Surfacing of Curve Networks.pdf:PDF},
+  issn = {0730-0301},
+  issue_date = {August 2015},
+  keywords = {curve networks, flow lines, surfacing},
+  numpages = {10},
+  owner = {Hongbo},
+  publisher = {ACM},
+  timestamp = {2016.01.03},
+  url = {http://doi.acm.org/10.1145/2766990}
+}
+
+@INPROCEEDINGS{pavlidis1985automatic,
+  author = {Pavlidis, Theo and Van Wyk, Christopher J},
+  title = {An automatic beautifier for drawings and illustrations},
+  booktitle = {ACM SIGGRAPH Computer Graphics},
+  year = {1985},
+  volume = {19},
+  number = {3},
+  pages = {225--234},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{plimmer2005beautifying,
+  author = {Plimmer, Beryl and Grundy, John},
+  title = {Beautifying sketching-based design tool content: issues and experiences},
+  booktitle = {Proceedings of the Sixth Australasian conference on User interface-Volume
+	40},
+  year = {2005},
+  pages = {31--38},
+  organization = {Australian Computer Society, Inc.}
+}
+
+@ARTICLE{Rivers:2010,
+  author = {Rivers, Alec and Durand, Fr\'{e}do and Igarashi, Takeo},
+  title = {3D modeling with silhouettes},
+  journal = {ACM Trans. Graph.},
+  year = {2010},
+  volume = {29},
+  pages = {1--8},
+  number = {4},
+  abstract = {We present a new sketch-based modeling approach in which models are
+	interactively designed by drawing their 2D silhouettes from different
+	views. The core idea of our paper is to limit the input to 2D silhouettes,
+	removing the need to explicitly create or position 3D elements. Arbitrarily
+	complex models can be constructed by assembling them out of parts
+	defined by their silhouettes, which can be combined using CSG operations.
+	We introduce a new simplified algorithm to compute CSG solids that
+	leverages special properties of silhouette cylinders to convert the
+	3D CSG problem into one that can be handled entirely with 2D operations,
+	making implementation simpler and more robust. We evaluate our approach
+	by modeling a random sampling of man-made objects taken from the
+	words in WordNet, and show that all of the tested man-made objects
+	can be modeled quickly and easily using our approach.},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/1778765.1778846},
+  file = {:sketching\\2010-SIGGRAPH 3D Modeling with Silhouettes.pdf:PDF},
+  issn = {0730-0301},
+  keywords = {3D modeling, sketch-based modeling, silhouettes, sketching, visual
+	hull, variational surfaces},
+  owner = {Hongbo},
+  publisher = {ACM},
+  timestamp = {2016.01.02}
+}
+
+@ARTICLE{Sachs1991,
+  author = {Sachs, Emanuel and Roberts, Andrew and Stoops, David},
+  title = {3-draw: A tool for designing 3d shapes},
+  journal = {IEEE Computer Graphics and Applications},
+  year = {1991},
+  volume = {11},
+  pages = {18--26},
+  number = {6},
+  owner = {Hongbo},
+  timestamp = {2016.01.02}
+}
+
+@INPROCEEDINGS{schmidt2009analytic,
+  author = {Schmidt, Ryan and Khan, Azam and Singh, Karan and Kurtenbach, Gord},
+  title = {Analytic drawing of 3d scaffolds},
+  booktitle = {ACM Transactions on Graphics (TOG)},
+  year = {2009},
+  volume = {28},
+  number = {5},
+  pages = {149},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Shin:2007,
+  author = {Shin, H.J. and Igarashi, T.},
+  title = {Magic canvas: interactive design of a 3-d scene prototype from freehand
+	sketches},
+  booktitle = {Proceedings of Graphics Interface 2007},
+  year = {2007},
+  pages = {63--70},
+  organization = {ACM},
+  file = {:shape_retrieval\\2007 Magic Canvas.pdf:PDF},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{singh1998wires,
+  author = {Singh, Karan and Fiume, Eugene},
+  title = {Wires: a geometric deformation technique},
+  booktitle = {Proceedings of the 25th annual conference on Computer graphics and
+	interactive techniques},
+  year = {1998},
+  pages = {405--414},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Tsang2002,
+  author = {Tsang, Michael and Fitzmaurice, George W and Kurtenbach, Gordon and
+	Khan, Azam and Buxton, Bill},
+  title = {Boom chameleon: simultaneous capture of 3D viewpoint, voice and gesture
+	annotations on a spatially-aware display},
+  booktitle = {Proceedings of the 15th annual ACM symposium on User interface software
+	and technology},
+  year = {2002},
+  pages = {111--120},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Tsang:2004,
+  author = {Tsang, Steve and Balakrishnan, Ravin and Singh, Karan and Ranjan,
+	Abhishek},
+  title = {A suggestive interface for image guided 3D sketching},
+  booktitle = {CHI '04},
+  year = {2004},
+  pages = {591--598},
+  abstract = {We present an image guided pen-based suggestive interface for sketching
+	3D wireframe models. Rather than starting from a blank canvas, existing
+	2D images of similar objects serve as a guide to the user. Image
+	based filters enable attraction, smoothing, and resampling of input
+	curves, and allows for their selective application using pinning
+	and gluing techniques. New input strokes also invoke suggestions
+	of relevant geometry that can be used, reducing the need to explicitly
+	draw all parts of the new model. All suggestions appear in-place
+	with the model being built, in the user's focal attention space.
+	A curve matching algorithm seamlessly augments basic suggestions
+	with more complex ones from a database populated with previously
+	used geometry. The interface also incorporates gestural command input,
+	and interaction techniques for camera controls that enable smooth
+	transitions between orthographic and perspective views.},
+  doi = {http://doi.acm.org/10.1145/985692.985767},
+  file = {:sketching\\2004-CHI A Suggestive Interface for Image Guided 3D Sketching.pdf:PDF},
+  isbn = {1-58113-702-8},
+  keywords = {Image based interaction, sketching interfaces},
+  location = {Vienna, Austria},
+  owner = {Hongbo},
+  timestamp = {2016.01.02}
+}
+
+@ARTICLE{xu2014true2form,
+  author = {Xu, Baoxuan and Chang, William and Sheffer, Alla and Bousseau, Adrien
+	and Mccrae, James and Singh, Karan},
+  title = {True2form: 3d curve networks from 2d sketches via selective regularization},
+  journal = {ACM Transactions on Graphics},
+  year = {2014},
+  volume = {33},
+  number = {4}
+}
+
+@ARTICLE{Xu:2013,
+  author = {Kun Xu and Kang Chen and Hongbo Fu and Wei-Lun Sun and Shi-Min Hu},
+  title = {Sketch2Scene: Sketch-based Co-retrieval and Co-placement of 3D Models},
+  journal = {ACM Transactions on Graphics},
+  year = {2013},
+  volume = {32},
+  pages = {Article No. 123},
+  number = {4},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@INPROCEEDINGS{xu2009joint,
+  author = {Xu, Weiwei and Wang, Jun and Yin, KangKang and Zhou, Kun and Van
+	De Panne, Michiel and Chen, Falai and Guo, Baining},
+  title = {Joint-aware manipulation of deformable models},
+  booktitle = {ACM Transactions on Graphics (TOG)},
+  year = {2009},
+  volume = {28},
+  number = {3},
+  pages = {35},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{zeleznik2008lineogrammer,
+  author = {Zeleznik, Robert C and Bragdon, Andrew and Liu, Chu-Chi and Forsberg,
+	Andrew},
+  title = {Lineogrammer: creating diagrams by drawing},
+  booktitle = {Proceedings of the 21st annual ACM symposium on User interface software
+	and technology},
+  year = {2008},
+  pages = {161--170},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{Zeleznik:1996,
+  author = {R.~C.~Zeleznik and K.~P.~Herndon and J.~F.~Hughes},
+  title = {{SKETCH}: An Interface for Sketching 3{D} Scenes},
+  booktitle = {Proceedings of ACM SIGGRAPH},
+  year = {1996},
+  pages = {163-170},
+  file = {:sketching\\1996-SIGGRAPH An Interface for Sketching 3D Scenes.pdf:PDF},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@ARTICLE{Zheng2016,
+  author = {Youyi Zheng and Han Liu and Julie Dorsey and Niloy J Mitra},
+  title = {SnmartCanvas: Context-inferred Interpretation of sketches for preparatory
+	design studies},
+  journal = {Computer Graphics Forum (Proceedings of Eurographics 2016)},
+  year = {2016},
+  owner = {Hongbo},
+  timestamp = {2016.01.03}
+}
+
+@ARTICLE{zitnick2013handwriting,
+  author = {Zitnick, C Lawrence},
+  title = {Handwriting beautification using token means},
+  journal = {ACM Transactions on Graphics (TOG)},
+  year = {2013},
+  volume = {32},
+  pages = {53},
+  number = {4},
+  publisher = {ACM}
+}
+
+@ARTICLE{Zou2015,
+  author = {Changqing Zou and Shifeng Chen and Hongbo Fu and Jianzhuang Liu},
+  title = {Progressive 3D reconstruction of planar-faced manifold objects with
+	DRF-based line drawing decomposition},
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  year = {2015},
+  volume = {21},
+  pages = {252--263},
+  number = {2},
+  owner = {hongbofu},
+  timestamp = {2014.10.20}
+}
+

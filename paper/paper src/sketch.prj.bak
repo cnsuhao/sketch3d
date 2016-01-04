@@ -1,0 +1,61 @@
+307 Patch Control
+
+0
+0
+1
+sketch.tex
+12
+4
+3
+
+
+
+
+
+
+sketch.tex
+TeX:UNIX
+135376891 5 -1 3274 -1 3275 0 0 1353 593 0 249 376 -1 -1 0 0 16 -1 -1 16 1 0 3275 -1   0
+method.tex
+TeX
+1060859 0 -1 20 -1 1278 0 0 1353 593 0 25 558 -1 -1 0 0 21 -1 -1 21 1 0 1278 -1   0
+introduction.tex
+TeX:UNIX
+1159163 0 -1 989 -1 1298 0 0 1353 593 0 329 651 -1 -1 0 0 0 -1 -1 0 1 0 1298 -1   0
+related_work.tex
+TeX:UNIX
+269594619 0 -1 4508 -1 4777 0 0 1353 593 0 553 496 -1 -1 0 0 0 -1 -1 0 1 0 4777 -1   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo.tex
+TeX:UTF-8
+286273530 1 391 88 391 80 0 0 1364 608 0 1289 279 -1 -1 0 0 1 818 818 1 1 0 80 391   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_pbpr_14_15.tex
+TeX:UTF-8
+286273530 0 507 1 517 20 0 0 1472 711 0 272 456 -1 -1 0 0 1 811 811 1 1 0 20 517   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_re-appointment_2011.tex
+TeX:UTF-8
+286273530 0 138 25 146 25 0 0 1441 663 0 361 504 -1 -1 0 0 39 0 0 39 1 0 25 146   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_pbpr_11_12.tex
+TeX:UTF-8
+286273530 0 29 19 29 23 0 0 1441 663 0 333 280 -1 -1 0 0 39 0 0 39 1 0 23 29   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_pbpr_12_13.tex
+TeX:UTF-8
+286273530 0 40 18 175 5 0 0 1441 663 0 81 504 -1 -1 0 0 1 594 594 1 1 0 5 175   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_substantiation.tex
+TeX:UTF-8
+286273530 0 41 29 41 33 0 0 1441 663 0 473 336 -1 -1 0 0 1 597 597 1 1 0 33 41   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\cv_hongbo_pbpr_13_14.tex
+TeX:UTF-8
+286273530 0 306 27 306 26 0 0 1275 575 0 375 280 -1 -1 0 0 1 666 666 1 1 0 26 306   0
+:\Users\Hongbo\Dropbox\CV\LaTeX\template.tex
+TeX:UNIX
+269594619 0 -1 0 -1 44932 0 0 1210 508 0 389 448 -1 -1 0 0 32 -1 -1 32 1 0 44932 -1   0
+
+*sketch.tex
+>
+*abstract
+*introduction
+*related_work
+*ui
+*method
+*citations_sketch.bib
+<

@@ -1,0 +1,266 @@
+\begin{thebibliography}{\protect\citename{Bourguignon et~al\mbox{.} }2001}
+
+\bibitem[\protect\citename{Bae et~al\mbox{.} }2008]{bae2008ilovesketch}
+{\sc Bae, S.-H., Balakrishnan, R., and Singh, K.}
+\newblock 2008.
+\newblock Ilovesketch: as-natural-as-possible sketching system for creating 3d
+  curve models.
+\newblock In {\em Proceedings of the 21st annual ACM symposium on User
+  interface software and technology}, ACM, 151--160.
+
+\bibitem[\protect\citename{Bier }1990]{bier1990snap}
+{\sc Bier, E.~A.}
+\newblock 1990.
+\newblock Snap-dragging in three dimensions.
+\newblock In {\em ACM SIGGRAPH Computer Graphics}, vol.~24, ACM, 193--204.
+
+\bibitem[\protect\citename{Bourguignon et~al\mbox{.}
+  }2001]{bourguignon2001drawing}
+{\sc Bourguignon, D., Cani, M.-P., and Drettakis, G.}
+\newblock 2001.
+\newblock Drawing for illustration and annotation in 3d.
+\newblock In {\em Computer Graphics Forum}, vol.~20, Wiley Online Library,
+  114--123.
+
+\bibitem[\protect\citename{Chen et~al\mbox{.} }2008]{Chen:2008f}
+{\sc Chen, X., Kang, S., Xu, Y., Dorsey, J., and Shum, H.}
+\newblock 2008.
+\newblock Sketching reality: Realistic interpretation of architectural designs.
+\newblock {\em ACM Transactions on Graphics (TOG) 27}, 2, 11.
+
+\bibitem[\protect\citename{Chen et~al\mbox{.} }2015]{Chen2015}
+{\sc Chen, X.~A., Coros, S., Mankoff, J., and Hudson, S.~E.}
+\newblock 2015.
+\newblock Encore: 3d printed augmentation of everyday objects with
+  printed-over, affixed and interlocked attachments.
+\newblock In {\em Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \&\#38; Technology}, ACM, New York, NY, USA, UIST '15,
+  73--82.
+
+\bibitem[\protect\citename{Cohen et~al\mbox{.} }1999]{Cohen1999}
+{\sc Cohen, J.~M., Markosian, L., Zeleznik, R.~C., Hughes, J.~F., and Barzel,
+  R.}
+\newblock 1999.
+\newblock An interface for sketching 3d curves.
+\newblock In {\em Proceedings of the 1999 symposium on Interactive 3D
+  graphics}, ACM, 17--21.
+
+\bibitem[\protect\citename{Dorsey et~al\mbox{.} }2007]{dorsey2007mental}
+{\sc Dorsey, J., Xu, S., Smedresman, G., Rushmeier, H., and McMillan, L.}
+\newblock 2007.
+\newblock The mental canvas: A tool for conceptual architectural design and
+  analysis.
+\newblock In {\em Computer Graphics and Applications, 2007. PG'07. 15th Pacific
+  Conference on}, IEEE, 201--210.
+
+\bibitem[\protect\citename{Eitz et~al\mbox{.} }2012]{Eitz:2012a}
+{\sc Eitz, M., Richter, R., Boubekeur, T., Hildebrand, K., and Alexa, M.}
+\newblock 2012.
+\newblock Sketch-based shape retrieval.
+\newblock {\em ACM Trans. Graph. (Proc. SIGGRAPH) 31}, 4, 31:1--31:10.
+
+\bibitem[\protect\citename{Fan et~al\mbox{.} }2013]{Fan2013}
+{\sc Fan, L., Wang, R., Xu, L., Deng, J., and Liu, L.}
+\newblock 2013.
+\newblock Modeling by drawing with shadow guidance.
+\newblock In {\em Computer Graphics Forum}, vol.~32, Wiley Online Library,
+  157--166.
+
+\bibitem[\protect\citename{Grimm and Joshi }2012]{Grimm:2012}
+{\sc Grimm, C., and Joshi, P.}
+\newblock 2012.
+\newblock Just drawit: a 3d sketching system.
+\newblock In {\em Proceedings of the International Symposium on Sketch-Based
+  Interfaces and Modeling}, Eurographics Association, Aire-la-Ville,
+  Switzerland, Switzerland, SBIM '12, 121--130.
+
+\bibitem[\protect\citename{Grossman et~al\mbox{.} }2002]{Grossman2002}
+{\sc Grossman, T., Balakrishnan, R., Kurtenbach, G., Fitzmaurice, G., Khan, A.,
+  and Buxton, B.}
+\newblock 2002.
+\newblock Creating principal 3d curves with digital tape drawing.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, ACM, 121--128.
+
+\bibitem[\protect\citename{Igarashi et~al\mbox{.} }1999]{Igarashi:1999}
+{\sc Igarashi, T., Matsuoka, S., and Tanaka, H.}
+\newblock 1999.
+\newblock Teddy: a sketching interface for 3{D} freeform design.
+\newblock In {\em SIGGRAPH '99}, 409--416.
+
+\bibitem[\protect\citename{Kara and Shimada }2006]{Kara2006}
+{\sc Kara, L.~B., and Shimada, K.}
+\newblock 2006.
+\newblock Construction and modification of 3d geometry using a sketch-based
+  interface.
+\newblock In {\em Eurographics workshop on sketch-based interfaces and
+  modeling}, 59--66.
+
+\bibitem[\protect\citename{Kara et~al\mbox{.} }2006]{Kara2006a}
+{\sc Kara, L.~B., D'Eramo, C.~M., and Shimada, K.}
+\newblock 2006.
+\newblock Pen-based styling design of 3d geometry using concept sketches and
+  template models.
+\newblock In {\em Proceedings of the 2006 ACM symposium on Solid and physical
+  modeling}, ACM, 149--160.
+
+\bibitem[\protect\citename{Karpenko and Hughes }2006]{Karpenko:2006}
+{\sc Karpenko, O.~A., and Hughes, J.~F.}
+\newblock 2006.
+\newblock Smoothsketch: 3d free-form shapes from complex sketches.
+\newblock {\em ACM Trans. Graph. 25}, 3, 589--598.
+
+\bibitem[\protect\citename{Karpenko et~al\mbox{.} }2004]{Karpenko2004}
+{\sc Karpenko, O., Hughes, J.~F., and Raskar, R.}
+\newblock 2004.
+\newblock Epipolar methods for multi-view sketching.
+\newblock In {\em Proceedings of the First Eurographics conference on
+  Sketch-Based Interfaces and Modeling}, Citeseer, 167--173.
+
+\bibitem[\protect\citename{Lau et~al\mbox{.} }2010]{Lau:2010}
+{\sc Lau, M., Saul, G., Mitani, J., and Igarashi, T.}
+\newblock 2010.
+\newblock Modeling-in-context: User design of complementary objects with a
+  single photo.
+\newblock In {\em SBIM 2010}.
+
+\bibitem[\protect\citename{Lee and Funkhouser }2008]{Lee:2008b}
+{\sc Lee, J., and Funkhouser, T.}
+\newblock 2008.
+\newblock Sketch-based search and composition of {3D} models.
+\newblock In {\em EUROGRAPHICS Workshop on Sketch-Based Interfaces and
+  Modeling}.
+
+\bibitem[\protect\citename{Lipson and Shpitalni }1996]{Lipson:1996}
+{\sc Lipson, H., and Shpitalni, M.}
+\newblock 1996.
+\newblock Optimization-based reconstruction of a 3d object from a single
+  freehand line drawing.
+\newblock {\em Computer-Aided Design 28}, 8, 651--663.
+
+\bibitem[\protect\citename{Nealen et~al\mbox{.} }2005]{nealen:2005:sketch}
+{\sc Nealen, A., Sorkine, O., Alexa, M., and Cohen-Or, D.}
+\newblock 2005.
+\newblock A sketch-based interface for detail-preserving mesh editing.
+\newblock {\em ACM Trans. Graph. 24}, 3, 1142--1147.
+
+\bibitem[\protect\citename{Nealen et~al\mbox{.} }2007]{nealen2007fibermesh}
+{\sc Nealen, A., Igarashi, T., Sorkine, O., and Alexa, M.}
+\newblock 2007.
+\newblock Fibermesh: designing freeform surfaces with 3d curves.
+\newblock In {\em ACM Transactions on Graphics (TOG)}, vol.~26, ACM, 41.
+
+\bibitem[\protect\citename{Olsen et~al\mbox{.} }2005]{Olsen:2005}
+{\sc Olsen, L., Samavati, F.~F., Sousa, M.~C., and Jorge, J.~A.}
+\newblock 2005.
+\newblock Sketch-based mesh augmentation.
+\newblock In {\em Eurographics Workshop on Sketch-Based Interfaces and
+  Modeling}.
+
+\bibitem[\protect\citename{Olsen et~al\mbox{.} }2009]{olsen2009sketch}
+{\sc Olsen, L., Samavati, F.~F., Sousa, M.~C., and Jorge, J.~A.}
+\newblock 2009.
+\newblock Sketch-based modeling: A survey.
+\newblock {\em Computers \& Graphics 33}, 1, 85--103.
+
+\bibitem[\protect\citename{Paczkowski et~al\mbox{.} }2011]{Paczkowski:2011}
+{\sc Paczkowski, P., Kim, M.~H., Morvan, Y., Dorsey, J., Rushmeier, H., and
+  O'Sullivan, C.}
+\newblock 2011.
+\newblock Insitu: Sketching architectural designs in context.
+\newblock {\em ACM Trans. Graph. 30}, 6 (Dec.), 182:1--182:10.
+
+\bibitem[\protect\citename{Pan et~al\mbox{.} }2015]{Pan:2015}
+{\sc Pan, H., Liu, Y., Sheffer, A., Vining, N., Li, C.-J., and Wang, W.}
+\newblock 2015.
+\newblock Flow aligned surfacing of curve networks.
+\newblock {\em ACM Trans. Graph. 34}, 4 (July), 127:1--127:10.
+
+\bibitem[\protect\citename{Rivers et~al\mbox{.} }2010]{Rivers:2010}
+{\sc Rivers, A., Durand, F., and Igarashi, T.}
+\newblock 2010.
+\newblock 3d modeling with silhouettes.
+\newblock {\em ACM Trans. Graph. 29}, 4, 1--8.
+
+\bibitem[\protect\citename{Sachs et~al\mbox{.} }1991]{Sachs1991}
+{\sc Sachs, E., Roberts, A., and Stoops, D.}
+\newblock 1991.
+\newblock 3-draw: A tool for designing 3d shapes.
+\newblock {\em IEEE Computer Graphics and Applications 11}, 6, 18--26.
+
+\bibitem[\protect\citename{Schmid et~al\mbox{.} }2011]{Schmid:2011}
+{\sc Schmid, J., Senn, M.~S., Gross, M., and Sumner, R.~W.}
+\newblock 2011.
+\newblock Overcoat: an implicit canvas for 3d painting.
+\newblock {\em ACM Trans. Graph. 30\/} (August), 28:1--28:10.
+
+\bibitem[\protect\citename{Schmidt et~al\mbox{.} }2009]{schmidt2009analytic}
+{\sc Schmidt, R., Khan, A., Singh, K., and Kurtenbach, G.}
+\newblock 2009.
+\newblock Analytic drawing of 3d scaffolds.
+\newblock In {\em ACM Transactions on Graphics (TOG)}, vol.~28, ACM, 149.
+
+\bibitem[\protect\citename{Shin and Igarashi }2007]{Shin:2007}
+{\sc Shin, H., and Igarashi, T.}
+\newblock 2007.
+\newblock Magic canvas: interactive design of a 3-d scene prototype from
+  freehand sketches.
+\newblock In {\em Proceedings of Graphics Interface 2007}, ACM, 63--70.
+
+\bibitem[\protect\citename{Singh and Fiume }1998]{singh1998wires}
+{\sc Singh, K., and Fiume, E.}
+\newblock 1998.
+\newblock Wires: a geometric deformation technique.
+\newblock In {\em Proceedings of the 25th annual conference on Computer
+  graphics and interactive techniques}, ACM, 405--414.
+
+\bibitem[\protect\citename{Tsang et~al\mbox{.} }2002]{Tsang2002}
+{\sc Tsang, M., Fitzmaurice, G.~W., Kurtenbach, G., Khan, A., and Buxton, B.}
+\newblock 2002.
+\newblock Boom chameleon: simultaneous capture of 3d viewpoint, voice and
+  gesture annotations on a spatially-aware display.
+\newblock In {\em Proceedings of the 15th annual ACM symposium on User
+  interface software and technology}, ACM, 111--120.
+
+\bibitem[\protect\citename{Tsang et~al\mbox{.} }2004]{Tsang:2004}
+{\sc Tsang, S., Balakrishnan, R., Singh, K., and Ranjan, A.}
+\newblock 2004.
+\newblock A suggestive interface for image guided 3d sketching.
+\newblock In {\em CHI '04}, 591--598.
+
+\bibitem[\protect\citename{Xu et~al\mbox{.} }2013]{Xu:2013}
+{\sc Xu, K., Chen, K., Fu, H., Sun, W.-L., and Hu, S.-M.}
+\newblock 2013.
+\newblock Sketch2scene: Sketch-based co-retrieval and co-placement of 3d
+  models.
+\newblock {\em ACM Transactions on Graphics 32}, 4, Article No. 123.
+
+\bibitem[\protect\citename{Xu et~al\mbox{.} }2014]{xu2014true2form}
+{\sc Xu, B., Chang, W., Sheffer, A., Bousseau, A., Mccrae, J., and Singh, K.}
+\newblock 2014.
+\newblock True2form: 3d curve networks from 2d sketches via selective
+  regularization.
+\newblock {\em ACM Transactions on Graphics 33}, 4.
+
+\bibitem[\protect\citename{Zeleznik et~al\mbox{.} }1996]{Zeleznik:1996}
+{\sc Zeleznik, R.~C., Herndon, K.~P., and Hughes, J.~F.}
+\newblock 1996.
+\newblock {SKETCH}: An interface for sketching 3{D} scenes.
+\newblock In {\em Proceedings of ACM SIGGRAPH}, 163--170.
+
+\bibitem[\protect\citename{Zheng et~al\mbox{.} }2016]{Zheng2016}
+{\sc Zheng, Y., Liu, H., Dorsey, J., and Mitra, N.~J.}
+\newblock 2016.
+\newblock Snmartcanvas: Context-inferred interpretation of sketches for
+  preparatory design studies.
+\newblock {\em Computer Graphics Forum (Proceedings of Eurographics 2016)\/}.
+
+\bibitem[\protect\citename{Zou et~al\mbox{.} }2015]{Zou2015}
+{\sc Zou, C., Chen, S., Fu, H., and Liu, J.}
+\newblock 2015.
+\newblock Progressive 3d reconstruction of planar-faced manifold objects with
+  drf-based line drawing decomposition.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics 21}, 2,
+  252--263.
+
+\end{thebibliography}
