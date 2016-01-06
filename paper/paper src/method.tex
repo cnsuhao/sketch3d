@@ -1,46 +1,40 @@
 \section{Methodology}
 
 %\ca{Brief idea: the relation between the strokes and projected model linear feature}
-Our algorithm is based on an important observation: when people sketch over an existing model to depict a new content, some of the user strokes will typically behave as the structural guidelines comply with the structure of the underlying model and usually share relations with the model. Therefore we can use the structural relations between the strokes and the model to estimate the 3D information of the drawn 2{D} strokes. 
+Our algorithm is based on an important observation: when people sketch over an existing model to depict a new content, some of the user strokes will typically behave as the structural guidelines comply with the structure of the underlying model and usually share relations with the model. Therefore we can exploit the structural relations between the strokes and the model to infer the 3{D} information of the drawn 2{D} strokes.
 
 
-\subsection{Relations between Shape and Strokes}
+\subsection{Shape-Stroke Coupling}
+In order to bridge between the shape and the strokes, we exploit some dominant features of the shape which are later coupled with the user drawn strokes to assist 3{d} positioning. Literature has shown that our human visual system is extremely sensitive to sharp features and corners \cite{line drawing}. Before detecting the relations between the strokes and shape, we first extract discriminative features from the shape which we term \emph{linear features}. The linear features of the shape include sharp edge line and shape dominant planes. The sharp edge lines are extracted using a similar method as in \ca{[Iwire]}, i.e., we first extract the closed-region shape feature curves and keep all the feature curves that approximate a straight line. The dominant planes are obtained by clustering the face normals of the model with mean-shift followed by a RANSAC approach to detect coplanar faces (Figure \ref{}). The clustered faces form several shape plane canvases. We refer shape plane canvases to shape dominant planes hereafter. The normals of these canvases are considered as another form of \emph{linear feature} of the shapes. Figure \ref{} shows the two types of linear features of the \ca{table} model, respectively. As our system assumes that groups of strokes lie on planar canvases, it is hence a natural idea to extract such linear features for the subsequent analysis.
 
-Before detecting the relations between the strokes and shape, we first extract straight segment from the drawn 2D strokes, and linear features from the shape. A straight segment is a consecutive part of stroke which is nearly straight. We use a simple growing algorithm to find the straight segments. Given a new stroke, we first uniformly resample it. The distance between sample points is \ca{10px} in our prototype. Then from the beginning of this resampled stroke, we add the points to current straight segment one by one, if the new added points will not introduce a sharp turning. Otherwise, current straight segment is finished and a new straight segment will be constructed. Then we filter out the short ones (less than \ca{50px}).
-
-The linear features of the shape include sharp edge and main face normal. The sharp edges are extracted using a similar method in \ca{[Iwire]}. After extracting the sharp edges, we detect the straight ones similar to detecting the straight segment. The main face normal is obtained by first clustering the faces of the model with similar normal. The clustered faces forms several shape plane canvases. The normals of these canvases are considered as the linear feature of the shapes.
+In compliance with the linear features of the shape, we also exploit the linearity of the user drawn strokes. In particular, we detect straight segments of a given stroke. A straight segment is a consecutive part of stroke which is nearly straight. We use a simple growing algorithm to find the straight segments. Given a stroke (poly-line), we first uniformly resample it. The distance between sample points is \ca{10px} in our implementation. Starting from an empty straight segment, we gradually add points of the resampled stroke to the segment one by one, if the new added points will not introduce a sharp turning. Otherwise, the grow of the current straight segment terminates and a new straight segment will be constructed to continue the process until there's no points left. We filter out the short segments whose length is less than \ca{50px}.
 
 %\ca{relations: colinearity}
 %
 %\ca{relations: parallel}
-After obtaining the straight segment of the stroke and linear feature of the shape, we detect the following relations:
-\textbf{Colinearity.} This relation is detected between a straight segment and a straight sharp edge. The normals of shape plane canvases will not be used for detection since they miss position information.
-\textbf{Parallel.} This relation is detected between a straight segment and a shape linear feature, including both straight sharp edge and normal of shape plane canvas.
-These two relations are both detected in the screen space.
-
-%\ca{relation: attachment, three level (corner, edge, face)}
-Another important relation between the stroke and shape is \textbf{Attachment}. If a endpoint of the stroke is over or close to the shape, we consider that this endpoint attaches to the shape. To make the attachment more content-aware, the detection is performed in three levels. First, the attachment is detected between the endpoint and the corner of the shape. If no attachment relation is found, the detection continues between the endpoint and the sharp edges. If no attachment relation is found in this level, we then detect the attachment between the endpoint and the shape's face.
+After obtaining the straight segment of the stroke and linear feature of the shape, we detect the following relations: \textbf{Colinearity.} This relation is detected between a straight segment and a sharp edge line. The shape plane canvases will not be used for detection since they miss linearity information. \textbf{Parallel.} This relation is detected between a straight segment and a shape linear feature, including both straight sharp edge line and the normal of shape plane canvas. These two relations are both detected in the screen space. Another important relation between the stroke and shape is \textbf{Attachment}. If an endpoint of the stroke is over or close to the shape, we consider that this endpoint is attached to the shape. To make the attachment more content-aware, the detection is performed in three levels. First, the attachment is detected between the endpoints and the corner of the shape, i.e., where multiple sharp edge lines join. If no attachment relation is found, the detection continues between the endpoint and the sharp edge lines. If no attachment relation is found in this level, we then detect the attachment between the endpoint and the shape's faces.
 
 
 \subsection{Canvas Estimation}
+The matching between the extracted feature from the model and the input strokes determines how to interpret the 2D sketch in 3D. The matching is performed in 2D, i.e., we project the extracted 3D feature to screen plane, and get the matching between the projected feature and the drawn strokes. This is based on the following observation: when user draws 2D stroke, although she perceives the model and the drawn strokes in 3D, she use the their 2D information as reference. Therefore the matching in screen space is more reliable. We matching the drawn strokes with the extracted shape linear features, including sharp edges, dominant faces, dominant normals, and skeletons, to determine the surface on which the user draws.
 
-The canvas is obtained from the relations between shape and strokes. Due to the ambiguity of the input, some of the detected relations are actually undesired. Therefore it is not wise to find a canvas which tries to fulfill all the detected relations. One observation is that, although the user's input contains ambiguity, most of the relations should be able to comply with each other, if the correct canvas is found. Motivated by this observation, we propose a two step approach to estimate the canvas.
+The plane canvas is obtained from the relations between shape and strokes. Due to the ambiguity of the input, some of the detected relations are actually undesired. Therefore it might not be feasible to find a canvas which ties to all the detected relations. One observation is that, although the user's input contains ambiguity, if the correct canvas is found, most of the relations should be able to comply with each other. Motivated by this observation, we propose a two step approach to estimate the canvas.
 
-First, we construct candidate canvases. Candidate canvases are all possible canvases which could be obtained by the combination of the relations. We found that the following combinations are able to yield valid canvases.
+First, we construct a set of candidate canvases. Candidate canvases are all possible canvases which could be obtained by the combination of the relations. We found that the following combinations are able to yield valid canvases.
 
-\textbf{Two colinearity.} If the corresponding two straight sharp edges could spans a plane, this combination can yield a valid canvas.
+\textbf{Two colinearity.} If the corresponding two straight sharp edge lines could spans a plane, this combination yields a valid canvas.
 
-\textbf{One colinearity + one parallel.} If the corresponding two straight sharp edges are not parallel, this combination can yield a valid canvas.
+\textbf{One colinearity + one parallel.} If the corresponding two straight sharp edge lines are not parallel, this combination yields a valid canvas.
 
-\textbf{One colinearity + one attachment.} If the attached 3D point is not colinear with the corresponding straight sharp edge, this combination can yield a valid canvas.
+\textbf{One colinearity + one attachment.} If the attached 3{D} point is not colinear with the corresponding straight sharp edge lines, this combination yields a valid canvas.
 
-\textbf{One parallel + two attachments.} if the two attached 3D points are not at the same position, and direction line between them is not parallel with the corresponding shape linear feature, this combination can yield a valid canvas.
+\textbf{One parallel + two attachments.} If the two attached 3{D} points are not at the same position, and direction line between them is not parallel with the corresponding shape linear feature, this combination yields a valid canvas.
 
-\textbf{Two parallel + one attachment.} If the corresponding two shape linear features are not parallel, this combination can yield a valid canvas.
+\textbf{Two parallel + one attachment.} If the corresponding two shape linear features are not parallel, this combination yields a valid canvas.
 
-\textbf{Three attachments.} If the three attached 3D points are not colinear, this combination can yield a valid canvas.
+\textbf{Three attachments.} If the three attached 3D points are not colinear, this combination yields a valid canvas.
 
-After obtaining the candidate canvas, we rank them according to how well these canvases preserve the detected relations. Given a canvas, we can convert the 2D strokes into 3D by a simple projection. After this conversion, the straight segments are all in 3D forms. We then check whether these straight segments share relation with the shape linear features. In addition, the attachment relation can also be validated. For each canvas and associated 3D sketch, we obtain the following scores to measure the degree of relation preservation.
+After obtaining the candidate canvas, we rank them according to how well these canvases preserve the detected relations. Given a canvas, we can convert the 2D strokes into 3D by a simple projection. After this conversion, the straight segments of the stroke are all in 3D. We then check whether these straight segments share relation with the shape linear features. In addition, the attachment relation can also be validated. For each canvas and associated 3D sketch, we obtain the following scores to measure how well the sketch is aligned with the detected relations.
 
 \begin{equation}
 \begin{aligned}
@@ -56,13 +50,6 @@ After getting these scores for each canvas and associated 3D sketch, we use the 
 
 %\subsection{Canvas Evaluation}
 
-\subsection{Adding Details on Existing Canvas}
-
-
-
-
-The surface in each step the user draws strokes on is extracted from the model, based on shape understanding. We extract useful information including sharp edges, dominant faces, dominant normals, and skeletons, to determine the surface. Sharp edge is defined as the salient linear feature of the model. Dominant face is defined as the salient 2D feature. Dominant normal is the normal of dominant face, which can be considered as another type of linear feature. Skeleton of the shape is useful when the shape has a skinny structure.
-
-The matching between the extracted feature from the model and the input strokes determines how to interpret the 2D sketch in 3D. The matching is performed in 2D, i.e., we project the extracted 3D feature to screen plane, and get the matching between the projected feature and the drawn strokes. This is based on the following observation: when user draws 2D stroke, although she perceives the model and the drawn strokes in 3D, she use the their 2D information as reference. Therefore the matching in screen space is more reliable. We matching the drawn strokes with the extracted features, including sharp edges, dominant faces, dominant normals, and skeletons, to determine the surface on which the user draws.
+\subsection{Postprocessing}
 
 Projecting the drawn strokes to the determined surface will generate a group of 3D strokes. However, since the 2D strokes drawn by the user are rough, the generated 3D strokes may deviate from the desired position. Therefore we need to postprocess the 3D strokes to obtain a more satisfactory 3D sketch. This beautification process is based on the following criteria. First, the 2D version of the beautified 3D strokes should similar to the original 2D strokes. This criterion ensures that the user's input is respected. Second, the beautified 3D strokes should match the features of the models better. This criterion ensures that the results follows the expectation of the user.  This beautification process can be realized by an optimization approach.
