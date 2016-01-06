@@ -1,7 +1,7 @@
 \section{Methodology}
 
 %\ca{Brief idea: the relation between the strokes and projected model linear feature}
-Our algorithm is based on an important observation: when people uses sketch to depict an additional part over a 3D model, some strokes behave like the structural part and usually share relations with the model. Therefore we can use the relations between the strokes and the model to estimate the 3D information of the drawn 2D strokes. 
+Our algorithm is based on an important observation: when people use sketch over an existing model to depict something, some strokes behave like the structural part and usually share relations with the model. Therefore we can use the relations between the strokes and the model to estimate the 3D information of the drawn 2D strokes.
 
 
 \subsection{Relations between Shape and Strokes}
@@ -46,15 +46,15 @@ After obtaining the candidate canvas, we rank them according to how well these c
 
 \begin{equation}
 \begin{aligned}
-E_c &= \sum_{s_i\in \mathcal{S}_c} L(s_i)\\  
+E_c &= \sum_{s_i\in \mathcal{S}_c} L(s_i)\\
 E_p &= \sum_{s_i\in \mathcal{S}_p} L(s_i)\\
 E_a &= \sum_{a_i\in \mathcal{A}_a} W(a_i)\\
 \end{aligned}
 \end{equation}
 
-where $E_c$, $E_p$, and $E_a$ are relation preservation score of colinearity, parallel, and attachment respectively. $s_i$ is a straight segment. $\mathcal{S}_c$ and $\mathcal{S}_p$ are the sets containing the straight segments which share colinearity/parallel relation with a shape linear feature. $L(\cdot)$ means the length of a straight segment. $a_i$ is an attachment point. $\mathcal{A}_a$ is the set containing the attachments which are preserved after conversion to 3D. $W(\cdot)$ is the weight of the attachment, whose value is determined by the type of attachment: \ca{To be determined.} 
+where $E_c$, $E_p$, and $E_a$ are relation preservation score of colinearity, parallel, and attachment respectively. $s_i$ is a straight segment. $\mathcal{S}_c$ and $\mathcal{S}_p$ are the sets containing the straight segments which share colinearity/parallel relation with a shape linear feature. $L(\cdot)$ means the length of a straight segment. $a_i$ is an attachment point. $\mathcal{A}_a$ is the set containing the attachments which are preserved after conversion to 3D. $W(\cdot)$ is the weight of the attachment, whose value is determined by the type of attachment: \ca{To be determined.}
 
-After getting these scores for each canvas and associated 3D sketch, we use the following strategy to rank them. First, we rank the candidates according to their $E_p$, and keep only the first \ca
+After getting these scores for each canvas and associated 3D sketch, we use the following strategy to rank them. First, we rank the candidates according to their $E_p$, and keep only the first \ca{ratio1} candidates. \ca{To be continued.}
 
 %\subsection{Canvas Evaluation}
 
