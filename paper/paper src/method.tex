@@ -1,13 +1,11 @@
 \section{Methodology}
 
 %\ca{Brief idea: the relation between the strokes and projected model linear feature}
-Our algorithm is based on an important observation: when people uses sketch to depict an additional part over a 3D model, some strokes behave like the structural part and usually share relations with the model. Therefore we can use the relations between the strokes and the model to estimate the 3D information of the drawn 2D strokes. 
+Our algorithm is based on an important observation: when people sketch over an existing model to depict a new content, some of the user strokes will typically behave as the structural guidelines comply with the structure of the underlying model and usually share relations with the model. Therefore we can use the structural relations between the strokes and the model to estimate the 3D information of the drawn 2{D} strokes. 
 
 
 \subsection{Relations between Shape and Strokes}
 
-
-%\ca{pre processing of the shapes and strokes}
 Before detecting the relations between the strokes and shape, we first extract straight segment from the drawn 2D strokes, and linear features from the shape. A straight segment is a consecutive part of stroke which is nearly straight. We use a simple growing algorithm to find the straight segments. Given a new stroke, we first uniformly resample it. The distance between sample points is \ca{10px} in our prototype. Then from the beginning of this resampled stroke, we add the points to current straight segment one by one, if the new added points will not introduce a sharp turning. Otherwise, current straight segment is finished and a new straight segment will be constructed. Then we filter out the short ones (less than \ca{50px}).
 
 The linear features of the shape include sharp edge and main face normal. The sharp edges are extracted using a similar method in \ca{[Iwire]}. After extracting the sharp edges, we detect the straight ones similar to detecting the straight segment. The main face normal is obtained by first clustering the faces of the model with similar normal. The clustered faces forms several shape plane canvases. The normals of these canvases are considered as the linear feature of the shapes.
@@ -46,13 +44,13 @@ After obtaining the candidate canvas, we rank them according to how well these c
 
 \begin{equation}
 \begin{aligned}
-E_c &= \sum_{s_i\in \mathcal{S}_c} L(s_i)\\  
+E_c &= \sum_{s_i\in \mathcal{S}_c} L(s_i)\\
 E_p &= \sum_{s_i\in \mathcal{S}_p} L(s_i)\\
 E_a &= \sum_{a_i\in \mathcal{A}_a} W(a_i)\\
 \end{aligned}
 \end{equation}
 
-where $E_c$, $E_p$, and $E_a$ are relation preservation score of colinearity, parallel, and attachment respectively. $s_i$ is a straight segment. $\mathcal{S}_c$ and $\mathcal{S}_p$ are the sets containing the straight segments which share colinearity/parallel relation with a shape linear feature. $L(\cdot)$ means the length of a straight segment. $a_i$ is an attachment point. $\mathcal{A}_a$ is the set containing the attachments which are preserved after conversion to 3D. $W(\cdot)$ is the weight of the attachment, whose value is determined by the type of attachment: \ca{To be determined.} 
+where $E_c$, $E_p$, and $E_a$ are relation preservation score of colinearity, parallel, and attachment respectively. $s_i$ is a straight segment. $\mathcal{S}_c$ and $\mathcal{S}_p$ are the sets containing the straight segments which share colinearity/parallel relation with a shape linear feature. $L(\cdot)$ means the length of a straight segment. $a_i$ is an attachment point. $\mathcal{A}_a$ is the set containing the attachments which are preserved after conversion to 3D. $W(\cdot)$ is the weight of the attachment, whose value is determined by the type of attachment: \ca{To be determined.}
 
 After getting these scores for each canvas and associated 3D sketch, we use the following strategy to rank them. First, we rank the candidates according to their $E_p$, and keep only the first \ca{ratio1} candidates. \ca{To be continued.}
 
